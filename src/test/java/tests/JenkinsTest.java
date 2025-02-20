@@ -7,6 +7,7 @@ import static org.testng.Assert.assertTrue;
 public class JenkinsTest {
 
 	@Test
+
 	void Test1(){
 		assertTrue(true);
 	}
