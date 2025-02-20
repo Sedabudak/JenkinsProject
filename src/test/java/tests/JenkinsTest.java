@@ -7,9 +7,9 @@ import static org.testng.Assert.assertTrue;
 public class JenkinsTest {
 
 	@Test
-	void Test1(){
-		assertTrue(false);
-	}
+	void Test1(){ assertTrue(false);}
+
+	// hatalı kod
 	@Test
 	void Test2(){
 		assertTrue(true);
